@@ -5,9 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirecting...</title>
   <script>
-    // Redirige todas las solicitudes a index.html
-    const redirectUrl = '/index.html' + window.location.pathname + window.location.search;
-    window.location.replace(redirectUrl);
+    // Evitar el bucle de redirección
+    if (window.location.pathname !== '/index.html') {
+      // Redirige todas las solicitudes a index.html
+      const redirectUrl = '/index.html' + window.location.pathname + window.location.search;
+      window.location.replace(redirectUrl);
+    }
   </script>
 </head>
 <body>
