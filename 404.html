@@ -7,10 +7,16 @@
   <script>
     // Evitar el bucle de redirección
     if (!window.location.pathname.includes('index.html')) {
-      // Redirige todas las solicitudes a index.html
-      const redirectUrl = window.location.pathname;
-      const urlFinal = redirectUrl.replaceAll('/index.html', '')
-      window.location.replace('creddy:/' + urlFinal);
+      // Obtener la ruta después de 'index.html'
+      const pathAfterIndexHtml = window.location.pathname;
+      
+      // Construir la URL final con el esquema 'creddy://'
+      const finalUrl = `creddy:/${pathAfterIndexHtml}`;
+
+	console.log(finalUrl)
+      
+      // Redirigir a la URL final
+      window.location.replace(finalUrl);
     }
   </script>
 </head>
@@ -18,3 +24,4 @@
   Redirecting...
 </body>
 </html>
+
