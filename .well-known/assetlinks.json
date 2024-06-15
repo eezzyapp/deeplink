@@ -3,10 +3,9 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.tuempresa.tuapp",
-      "sha256_cert_fingerprints": [
-        "YOUR_CERTIFICATE_FINGERPRINT"
-      ]
+      "package_name": "ve.com.eezzy.twa",
+      "sha256_cert_fingerprints":
+        ["4A:E8:A3:DC:7C:FC:3F:2A:3F:AA:24:95:3B:1B:36:4D:DD:66:DF:4D:1E:F0:24:26:F0:87:AE:8B:B1:5A:2F:02"]
     }
   }
 ]
