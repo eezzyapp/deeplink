@@ -1,13 +1,166 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="es"><head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Deep Linking Example</title>
+    <title>eezzy - Social Commerce App</title>
+    <style>
+        body {
+            margin: 0;
+       		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    		background-color: #f8f9fa;
+    		color: #333;
+    		background: #ff006a;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .logo img {
+            max-width: 150px;
+            vertical-align: middle;
+        }
+
+        .hero {
+            background-image: url('https://enqtcjbvtezcbwtiygpc.supabase.co/storage/v1/object/public/products_img/EEZZYAPPSPLASHLISTOEEZZYdos.webp');
+    		background-size: cover;
+    		color: #fff;
+    		text-align: center;
+       		background-repeat: no-repeat;
+    		background-position: center;
+            height: 87.5vh;
+            width: 100vw;
+            position: absolute;
+            top: 0;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 20px;
+        }
+
+        .download-buttons {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: absolute;
+            bottom: 17.5%;
+            width: 100%;
+        }
+
+        .download-button {
+                display: inline-block;
+                padding: 15px 30px;
+                background-color: #28a745;
+                color: #fff;
+                text-decoration: none;
+                border-radius: 15px;
+                font-size: 1.2rem;
+                transition: background-color 0.3s ease;
+                height: 25px;
+                min-width: 200px;
+        }
+
+        .download-button:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #ffffff;
+            color: #191919;
+            padding: 0px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 12.5vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer a {
+            color: #191919;
+            text-decoration: underline;
+            font-size: 15px;
+        }
+        footer p {
+            margin: 0px;
+
+        }
+    </style>
 </head>
 <body>
-    <h1>Bienvenido a Eezzy Creddy</h1>
-    <p>Esta pagina se usa para propositos de deeplinking</p>
-</body>
-</html>
+    
+    <section class="hero">
+         
+    </section>
+<div class="download-buttons">
+<h2 style="
+    font-size: 15px;
+    width: 90%;
+    text-align: center;
+    margin: 0px auto 15px auto;
+    color: #fff;
+">Descarga la APP</h2>
+    <a href="https://play.google.com/store/apps/details?id=ve.com.eezzy.twa" target="_blank" style="
+    min-width: 275px;
+    color: #fff;
+    background-color: rgb(0 231 176 / 97.5%);
+    border: 2.5px solid #fff;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    margin: 0px auto 10px auto;
+    padding-right: 7.5px;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    height: 50px;
+    gap: 0px;
+"><svg viewBox="0 0 24 24" width="40" height="30" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><defs><style>.cls-1{fill:none;}.cls-2{fill:#fff;}.cls-3{fill:url(#linear-gradient);}.cls-4{fill:url(#linear-gradient-2);}.cls-5{fill:url(#linear-gradient-3);}.cls-6{fill:url(#linear-gradient-4);}</style><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="9.58" x2="9.58" y1="17.71" y2="6.31"><stop offset="0" stop-color="#00e4ff"></stop><stop offset="0.99" stop-color="#0cf"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-2" x1="13.03" x2="18.6" y1="11.87" y2="11.87"><stop offset="0.01" stop-color="#ffbc00"></stop><stop offset="1" stop-color="#ffe100"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-3" x1="11.02" x2="11.02" y1="11.74" y2="5.4"><stop offset="0" stop-color="#00f055"></stop><stop offset="0.99" stop-color="#00e05a"></stop></linearGradient><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient-4" x1="11.26" x2="11.26" y1="18.6" y2="11.74"><stop offset="0.01" stop-color="#de1646"></stop><stop offset="1" stop-color="#ff2b43"></stop></linearGradient></defs><title></title><g data-name="Layer 2" id="Layer_2"><g data-name="Layer 3" id="Layer_3"><rect class="cls-1" height="24" width="24"></rect><path class="cls-2" d="M1,12C1,4,4,1,12,1S23,4,23,12,20,23,12,23,1,20,1,12"></path><path class="cls-3" d="M13,11.74,6.59,18.12A1.53,1.53,0,0,1,6.12,17V7a1.53,1.53,0,0,1,.49-1.13Z"></path><path class="cls-4" d="M18.6,12a1.57,1.57,0,0,1-.84,1.38l-1.83,1-2.27-2.08L13,11.74l2.41-2.39,2.32,1.27A1.57,1.57,0,0,1,18.6,12Z"></path><path class="cls-5" d="M13,11.74,6.61,5.86a1.79,1.79,0,0,1,.3-.22,1.69,1.69,0,0,1,1.7,0l6.83,3.73Z"></path><path class="cls-6" d="M15.93,14.39l-7.32,4a1.76,1.76,0,0,1-.83.21,1.61,1.61,0,0,1-.87-.24,1.91,1.91,0,0,1-.32-.24L13,11.74l.63.57Z"></path></g></g></svg><h4 style="
+    min-width: 100px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+">Google Play</h4></a>
+<a href="https://apps.apple.com/us/app/eezzy-ecommerce/id6478549624" target="_blank" style="
+    min-width: 275px;
+    color: #fff;
+    background-color: rgb(0 231 176 / 97.5%);
+    border: 2.5px solid #fff;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+    padding-right: 7.5px;
+    text-decoration: none;
+    display: flex;
+    position: relative;
+    height: 50px;
+    gap: 0px;
+"><svg viewBox="0 0 24 24" fill="none" height="30" width="40" xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="M14.605 5.922c.61-.758 1.074-1.829.906-2.922-.998.067-2.165.68-2.846 1.48-.621.726-1.131 1.804-.932 2.85 1.092.034 2.218-.595 2.872-1.408zM20 16.206c-.437.936-.647 1.354-1.21 2.183-.785 1.157-1.892 2.597-3.264 2.608-1.219.012-1.533-.768-3.188-.758-1.654.008-1.999.773-3.22.76-1.371-.01-2.42-1.31-3.205-2.467-2.196-3.233-2.427-7.027-1.073-9.045.964-1.433 2.483-2.271 3.91-2.271 1.454 0 2.368.77 3.571.77 1.167 0 1.878-.773 3.558-.773 1.272 0 2.62.67 3.58 1.826-3.145 1.666-2.636 6.006.541 7.167z" fill-rule="evenodd" fill="#fff"></path></svg><h4 style="
+    min-width: 100px;
+    color: #fff;
+    text-align: left;
+    margin: 0px;
+">App Store</h4></a>
+      
+      
+</div>
+    <footer>
+        <p style="
+    margin: 0px;
+">© 2024 eezzy</p>
 
+
+    </footer>
+
+
+
+
+</body></html>
