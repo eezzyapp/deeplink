@@ -4,9 +4,14 @@
     "details": [
       {
         "appID": "7LU45JL4V5.twa.com.eezzy.eezzyapp",
-        "paths": ["/", "/*"]
+        "paths": ["/", "/*", "/app/*"]
       }
     ]
+  },
+  "activitycontinuation": {
+    "apps": ["7LU45JL4V5.twa.com.eezzy.eezzyapp"]
+  },
+  "webcredentials": {
+    "apps": ["7LU45JL4V5.twa.com.eezzy.eezzyapp"]
   }
 }
-
