@@ -160,7 +160,13 @@
 
     </footer>
 
-
-
-
+    <script>
+        // Evitar el bucle de redirección
+        if (!window.location.pathname.includes('index.html')) {
+            const finalUrl = `creddy://home`;
+            
+            // Redirigir a la URL final
+            window.location.replace(finalUrl);
+        }
+    </script>
 </body></html>
